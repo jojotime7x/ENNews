@@ -1,0 +1,17 @@
+asgiref==3.2.7
+certifi==2022.12.7
+charset-normalizer==3.1.0
+dj-database-url==0.5.0
+Django==2.1.15
+django-ckeditor==5.9.0
+django-heroku==0.3.1
+django-js-asset==1.2.2
+gunicorn==20.0.4
+idna==3.4
+Pillow==7.1.2
+psycopg2==2.8.5
+pytz==2020.1
+requests==2.29.0
+sqlparse==0.3.1
+urllib3==1.26.15
+whitenoise==5.1.0

@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block title %} Privacy Policy {% endblock title %}
+{% block privacyactive %} active {% endblock privacyactive %} {% block body %}
+
+<div class="container my-3">
+  <div class="blog-post">
+    <h2 class="blog-post-title">{{allPost.title}}</h2>
+    <p class="blog-post-meta">
+      {{allPost.time}} by <a href="/home">Coffee all Day </a>
+    </p>
+
+    <p>{{allPost.content | safe }}</p>
+  </div>
+</div>
+{% endblock body %}
