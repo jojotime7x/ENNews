@@ -1,6 +1,7 @@
-{% extends "base.html" %} {% block title %} Blog - {{post.slug}} {% endblock
-title %} {% block blogactive %} active {% endblock blogactive %} {% block body
-%}
+{% extends "base.html" %} 
+{% block title %} Blog - {{post.slug}} {% endblock title %} 
+{% block blogactive %} active {% endblock blogactive %} 
+{% block body %}
 
 <main role="main" class="container">
   <div class="row">
@@ -8,7 +9,7 @@ title %} {% block blogactive %} active {% endblock blogactive %} {% block body
       <h3 class="pb-4 mb-4 font-italic border-bottom">Lets coffee?</h3>
 
       <div class="blog-post">
-        <img src="{{post.img.url}}" class="card-img-top" alt="{{post.title}" />
+        <img src="{{post.img.url}}" class="card-img-top" alt="{{post.title}}" />
 
         <h2 class="blog-post-title">{{post.title}}</h2>
 
@@ -23,13 +24,7 @@ title %} {% block blogactive %} active {% endblock blogactive %} {% block body
 
       <nav class="blog-pagination">
         <a class="btn btn-outline-primary" href="#">Older</a>
-        <a
-          class="btn btn-outline-secondary disabled"
-          href="#"
-          tabindex="-1"
-          aria-disabled="true"
-          >Newer</a
-        >
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
       </nav>
     </div>
     <!-- /.blog-main -->
@@ -38,9 +33,7 @@ title %} {% block blogactive %} active {% endblock blogactive %} {% block body
       <div class="p-4 mb-3 bg-light rounded">
         <h4 class="font-italic">About</h4>
         <p class="mb-0">
-          Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis
-          consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla
-          sed consectetur.
+          Hello from<em>JOJO</em>
         </p>
       </div>
 
@@ -58,4 +51,6 @@ title %} {% block blogactive %} active {% endblock blogactive %} {% block body
   <!-- /.row -->
 </main>
 
-{% endblock body %}
+
+{% endblock %}
+

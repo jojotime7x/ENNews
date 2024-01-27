@@ -4,7 +4,7 @@ from .models import FavoriteArticle
 
 
 def fetch_news(request):
-    url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=6686d39b398a4b5796aeb26cee49c40d'  # Replace with your desired API endpoint
+    url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=a4b5796aeb26cee49c40d'  # Replace with your desired API endpoint
     params = {
         'country': 'us',
         'apiKey': '6686d39b398a4b5796aeb26cee49c40d',  # Replace with your actual API key

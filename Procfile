@@ -1,1 +1,1 @@
-web: gunicorn shikshago.wsgi
+web: gunicorn ennews.wsgi
